@@ -17,15 +17,4 @@ Application.run(function ($rootScope) {
          * if a different user logs in, app will be reloaded and user is redirected to respective landing page configured in Security.
          */
     };
-
-    /*
-     * This application level callback function will be invoked after the invocation of PAGE level onPageReady function.
-     * Use this function to write common logic across the pages in the application.
-     * activePageName : name of the page
-     * activePageScope: scope of the page
-     * $activePageEl  : page jQuery element
-     */
-    $rootScope.onPageReady = function(activePageName, activePageScope, $activePageEl) {
-
-    };
 });
